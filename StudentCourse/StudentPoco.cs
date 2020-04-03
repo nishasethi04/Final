@@ -8,7 +8,7 @@ namespace StudentCourse
 {
     
     [Table("Student")]
-    class StudentPoco
+   public  class StudentPoco
     {
         
         [Key]

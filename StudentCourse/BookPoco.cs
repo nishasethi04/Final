@@ -7,7 +7,7 @@ using System.Text;
 namespace StudentCourse
 {
     [Table("Book")]
-    class BookPoco
+    public class BookPoco
     {
         [Key]
         public int BookId { get; set; }
